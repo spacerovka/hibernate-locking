@@ -2,7 +2,6 @@ package com.spacerovka.domain;
 
 import lombok.Data;
 
-import javax.annotation.Generated;
 import javax.persistence.*;
 
 /**
@@ -15,7 +14,7 @@ public class OptimisticWithVersion {
 
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
     private String name;
 

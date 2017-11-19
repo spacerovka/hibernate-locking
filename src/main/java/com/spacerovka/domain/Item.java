@@ -5,7 +5,6 @@ import lombok.Data;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 
 /**
  * Created by Svetotulichka on 15.11.2017.
@@ -16,7 +15,7 @@ public class Item {
 
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
     private String name;
 

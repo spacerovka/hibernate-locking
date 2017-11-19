@@ -1,9 +1,6 @@
 package com.spacerovka.domain;
 
 import lombok.Data;
-import org.hibernate.annotations.DynamicUpdate;
-import org.hibernate.annotations.OptimisticLockType;
-import org.hibernate.annotations.OptimisticLocking;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -18,7 +15,7 @@ public class OptimisticWithCollection {
 
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
     private String name;
 
